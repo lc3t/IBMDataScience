@@ -59,6 +59,7 @@ Now, we get a cleaned raw data set, which is ready for data analysis:
 ![cleaned raw dataset](https://github.com/lc3t/IBMDataScience/blob/master/pic/cleaned_raw_data.png "cleaned raw data")
 
 Plot of main variables in 5 years:
+
 ![all features plot](https://github.com/lc3t/IBMDataScience/blob/master/pic/all_feature_plot.png "all features plot")
 
 
