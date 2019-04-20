@@ -106,7 +106,9 @@ The model will be fit for __50__ training epochs with a batch size of __72__.
 ### 4.1 In-sample prediction
 To verify the model, let's plot pm2.5 time series of test model and the predictions.
 ![prediction vs test](https://github.com/lc3t/IBMDataScience/blob/master/pic/forecastvstest.png "prediction vs test")
+
 The graph looks same.
+
 To further verify it, let's test with __Root Mean Squared Error__
 
 ### 4.2 RMSE test
@@ -118,10 +120,12 @@ The result is 3.8358, a quite small number which is acceptable.
 
 ## 5. Discussion
 Overall, LSTM is a good model for multivariable time series prediction. With a small sample (365*24), we can also get a good prediction in a long term.
+
 With this model, people can do air pollution forecast by themselves.
 
 ## 6. Conclusion
 I hope through this report, people can learn how to build a time series forecast model with LSTM. Time series are currently applied in many feild, such as stock, sales, weather, etc. a good predection can help peole make better decision in the future.
+
 Hope this report can help.
 
 
