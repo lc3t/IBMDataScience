@@ -21,7 +21,9 @@ This tool is based on reliable data source (US Embassy in Beijing), and can do f
 ### where to find data
 We can find the relative data from internet.
 For example, we can find historic data from UCI.
+
 [Data Source Page of UCI](https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data)
+
 Also, we can write a web crawler to scrape data from US Embassy in Beijing website.
 ### which model/methodology should be used
 Air pollution data, is time series, there are several methodologies to do forecast/prediction:
@@ -31,6 +33,7 @@ Air pollution data, is time series, there are several methodologies to do foreca
 * ARiMA
 * RNN
 * LSTM
+
 As required by the assignment, we need to choose a machine-learning algorithm, so RNN or LSTM is a good ideas.
 
 We can find the models in Keras library
